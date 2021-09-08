@@ -16,7 +16,7 @@ class _LandingPageState extends State<LandingPage>{
 
 
   double opacity = 0.2;
-  var height = 300.0;
+  var height = 500.0;
   int open = 0;
 
   @override

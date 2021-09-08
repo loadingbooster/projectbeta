@@ -1,6 +1,7 @@
 import 'dart:ui';
 import 'package:projectbeta/accounts/myaccount.dart';
 import 'package:projectbeta/accounts/wallet.dart';
+import 'package:projectbeta/cricketcostest.dart';
 import 'package:projectbeta/cteamcrick/cricket.dart';
 import 'package:projectbeta/cteamcrick/football.dart';
 import 'package:projectbeta/homescreen/homescreen.dart';
@@ -13,7 +14,6 @@ import 'package:projectbeta/teampreview/tprevfootball.dart';
 
   void main(){
     runApp(MyApp());
-
   }
 
   class MyApp extends StatelessWidget{
@@ -21,9 +21,10 @@ import 'package:projectbeta/teampreview/tprevfootball.dart';
     Widget build(BuildContext context) {
       return MaterialApp(
         debugShowCheckedModeBanner: false,
-            home: CteamCrick()
+            home: Homescreen()
       );
     }
   }
+
 
 

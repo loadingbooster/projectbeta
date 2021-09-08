@@ -1,14 +1,14 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
-class CteamCrick extends StatefulWidget {
-  const CteamCrick({Key? key}) : super(key: key);
+class CteamBasketball extends StatefulWidget {
+  const CteamBasketball({Key? key}) : super(key: key);
 
   @override
-  _CteamCrickState createState() => _CteamCrickState();
+  _CteamBasketballState createState() => _CteamBasketballState();
 }
 
-class _CteamCrickState extends State<CteamCrick> {
+class _CteamBasketballState extends State<CteamBasketball> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
@@ -150,14 +150,13 @@ class _CteamCrickState extends State<CteamCrick> {
                   ),
                 )),
                 Container(
-                  color: Colors.blue,
                   child: Row(
                     mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                     children: <Widget>[
-                      Expanded(child: ElevatedButton(onPressed: (){}, child: Text("View Team"),style: ElevatedButton.styleFrom(
+                      Expanded(child: ElevatedButton(onPressed: (){}, child: Text("Press"),style: ElevatedButton.styleFrom(
 
                       ),)),
-                      Expanded(child: ElevatedButton(onPressed: (){}, child: Text("Continue"))),
+                      Expanded(child: ElevatedButton(onPressed: (){}, child: Text("Press"))),
                     ],
                   ),
                 )
